@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,30 +13,30 @@
             box-sizing: border-box;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
-
+        
         body {
             background-color: #121212;
             color: #e0e0e0;
             line-height: 1.6;
         }
-
+        
         a {
             color: #bb86fc;
             text-decoration: none;
             transition: color 0.3s;
         }
-
+        
         a:hover {
             color: #985eff;
         }
-
+        
         .container {
             width: 90%;
             max-width: 1200px;
             margin: 0 auto;
             padding: 0 20px;
         }
-
+        
         /* Header */
         header {
             background-color: #1e1e1e;
@@ -47,13 +46,13 @@
             top: 0;
             z-index: 100;
         }
-
+        
         .header-content {
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
-
+        
         .logo {
             font-size: 1.8rem;
             font-weight: bold;
@@ -61,50 +60,50 @@
             display: flex;
             align-items: center;
         }
-
+        
         .logo i {
             margin-right: 10px;
         }
-
+        
         nav ul {
             display: flex;
             list-style: none;
         }
-
+        
         nav ul li {
             margin-left: 25px;
         }
-
+        
         nav ul li a {
             font-weight: 500;
             padding: 5px 10px;
             border-radius: 4px;
         }
-
+        
         nav ul li a:hover {
             background-color: #252525;
         }
-
+        
         /* Hero Section */
         .hero {
             padding: 100px 0;
             text-align: center;
             background: linear-gradient(to bottom, #1e1e1e, #121212);
         }
-
+        
         .hero h1 {
             font-size: 3rem;
             margin-bottom: 20px;
             color: #ffffff;
         }
-
+        
         .hero p {
             font-size: 1.2rem;
             max-width: 700px;
             margin: 0 auto 30px;
             color: #b0b0b0;
         }
-
+        
         .btn {
             display: inline-block;
             background-color: #bb86fc;
@@ -116,47 +115,47 @@
             margin: 5px;
             cursor: pointer;
         }
-
+        
         .btn:hover {
             background-color: #985eff;
             transform: translateY(-3px);
             box-shadow: 0 5px 15px rgba(152, 94, 255, 0.3);
         }
-
+        
         .btn-outline {
             background-color: transparent;
             border: 2px solid #bb86fc;
             color: #bb86fc;
         }
-
+        
         .btn-outline:hover {
             background-color: #bb86fc;
             color: #121212;
         }
-
+        
         /* Content Sections */
         .section {
             padding: 70px 0;
         }
-
+        
         .section-title {
             text-align: center;
             margin-bottom: 50px;
             color: #ffffff;
             font-size: 2.2rem;
         }
-
+        
         .section-dark {
             background-color: #1a1a1a;
         }
-
+        
         /* Weeks Section */
         .weeks-container {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
             gap: 20px;
         }
-
+        
         .week-card {
             background-color: #1e1e1e;
             border-radius: 10px;
@@ -168,33 +167,33 @@
             flex-direction: column;
             align-items: center;
             justify-content: space-between;
-            min-height: 220px;
+            min-height: 240px;
         }
-
+        
         .week-card:hover {
             transform: translateY(-5px);
         }
-
+        
         .week-number {
             font-size: 3rem;
             font-weight: bold;
             color: #bb86fc;
             margin-bottom: 10px;
         }
-
+        
         .week-label {
             color: #b0b0b0;
             font-size: 1.1rem;
             margin-bottom: 15px;
         }
-
-        .coming-soon {
+        
+        .week-description {
             margin-bottom: 15px;
             font-size: 0.9rem;
-            color: #777;
+            color: #e0e0e0;
             font-style: italic;
         }
-
+        
         .github-btn {
             display: inline-flex;
             align-items: center;
@@ -205,16 +204,16 @@
             font-weight: 500;
             transition: all 0.3s;
         }
-
+        
         .github-btn:hover {
             background-color: #bb86fc;
             color: #121212;
         }
-
+        
         .github-btn i {
             margin-right: 8px;
         }
-
+        
         /* Info Sections */
         .info-container {
             background-color: #1e1e1e;
@@ -222,35 +221,34 @@
             padding: 30px;
             margin-bottom: 30px;
         }
-
+        
         .info-title {
             color: #bb86fc;
             margin-bottom: 20px;
             font-size: 1.8rem;
         }
-
+        
         .info-content h3 {
             color: #ffffff;
             margin: 25px 0 15px;
             font-size: 1.4rem;
         }
-
+        
         .info-content p {
             margin-bottom: 15px;
             color: #b0b0b0;
         }
-
-        .info-content ol,
-        .info-content ul {
+        
+        .info-content ol, .info-content ul {
             margin-left: 20px;
             margin-bottom: 20px;
             color: #b0b0b0;
         }
-
+        
         .info-content li {
             margin-bottom: 10px;
         }
-
+        
         .code-block {
             background-color: #252525;
             padding: 15px;
@@ -260,73 +258,72 @@
             font-family: monospace;
             color: #e0e0e0;
         }
-
+        
         /* Footer */
         footer {
             background-color: #1a1a1a;
             padding: 40px 0;
             text-align: center;
         }
-
+        
         .footer-content {
             display: flex;
             flex-direction: column;
             align-items: center;
         }
-
+        
         .social-links {
             margin-bottom: 20px;
         }
-
+        
         .social-links a {
             display: inline-block;
             margin: 0 10px;
             font-size: 1.5rem;
         }
-
+        
         /* Responsive */
         @media (max-width: 768px) {
             .header-content {
                 flex-direction: column;
                 text-align: center;
             }
-
+            
             nav ul {
                 margin-top: 20px;
                 flex-wrap: wrap;
                 justify-content: center;
             }
-
+            
             nav ul li {
                 margin: 10px;
             }
-
+            
             .hero h1 {
                 font-size: 2.2rem;
             }
-
+            
             .weeks-container {
                 grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
             }
         }
-
+        
         @media (max-width: 480px) {
             .weeks-container {
                 grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
             }
-
+            
             .week-card {
                 padding: 15px;
-                min-height: 200px;
+                min-height: 220px;
             }
-
+            
             .week-number {
                 font-size: 2.5rem;
             }
         }
     </style>
 </head>
-
 <body>
     <header>
         <div class="container header-content">
@@ -344,7 +341,7 @@
             </nav>
         </div>
     </header>
-
+    
     <section id="inicio" class="hero">
         <div class="container">
             <h1>Esteban Galarza Inga</h1>
@@ -355,230 +352,214 @@
             </div>
         </div>
     </section>
-
+    
     <section id="semanas" class="section">
         <div class="container">
             <h2 class="section-title">Semanas de Proyectos</h2>
-
+            
             <div class="weeks-container">
                 <!-- Semana 1 -->
                 <div class="week-card">
                     <div>
                         <div class="week-number">01</div>
                         <div class="week-label">Semana 1</div>
-                        <div class="coming-soon">Introducción a HTML y CSS</div>
+                        <div class="week-description">Introducción a HTML y CSS</div>
                     </div>
-                    <a href="https://github.com/Estebangi11/Taller_Desarrollo_Aplicaciones/tree/22b16d32d97392bd1dc4a6a911d7ef23997a5870/Semana01"
-                        class="github-btn" target="_blank">
+                    <a href="https://github.com/Estebangi11/Taller_Desarrollo_Aplicaciones/tree/main/Semana01" class="github-btn" target="_blank">
                         <i class="fab fa-github"></i> Ver Repositorio
                     </a>
                 </div>
-
+                
                 <!-- Semana 2 -->
                 <div class="week-card">
                     <div>
                         <div class="week-number">02</div>
                         <div class="week-label">Semana 2</div>
-                        <div class="coming-soon">Fundamentos de JavaScript</div>
+                        <div class="week-description">Fundamentos de JavaScript</div>
                     </div>
-                    <a href="https://github.com/Estebangi11/Taller_Desarrollo_Aplicaciones/tree/22b16d32d97392bd1dc4a6a911d7ef23997a5870/Semana02"
-                        class="github-btn" target="_blank">
+                    <a href="https://github.com/Estebangi11/Taller_Desarrollo_Aplicaciones/tree/main/Semana02" class="github-btn" target="_blank">
                         <i class="fab fa-github"></i> Ver Repositorio
                     </a>
                 </div>
-
+                
                 <!-- Semana 3 -->
                 <div class="week-card">
                     <div>
                         <div class="week-number">03</div>
                         <div class="week-label">Semana 3</div>
-                        <div class="coming-soon">Diseño Responsive</div>
+                        <div class="week-description">Diseño Responsive</div>
                     </div>
-                    <a href="https://github.com/Estebangi11/Taller_Desarrollo_Aplicaciones/tree/22b16d32d97392bd1dc4a6a911d7ef23997a5870/Semana03"
-                        class="github-btn" target="_blank">
+                    <a href="https://github.com/Estebangi11/Taller_Desarrollo_Aplicaciones/tree/main/Semana03" class="github-btn" target="_blank">
                         <i class="fab fa-github"></i> Ver Repositorio
                     </a>
                 </div>
-
+                
                 <!-- Semana 4 -->
                 <div class="week-card">
                     <div>
                         <div class="week-number">04</div>
                         <div class="week-label">Semana 4</div>
-                        <div class="coming-soon">Frameworks CSS</div>
+                        <div class="week-description">Frameworks CSS</div>
                     </div>
-                    <a href="https://github.com/Estebangi11/Taller_Desarrollo_Aplicaciones/tree/22b16d32d97392bd1dc4a6a911d7ef23997a5870/Semana04"
-                        class="github-btn" target="_blank">
+                    <a href="https://github.com/Estebangi11/Taller_Desarrollo_Aplicaciones/tree/main/Semana04" class="github-btn" target="_blank">
                         <i class="fab fa-github"></i> Ver Repositorio
                     </a>
                 </div>
-
+                
                 <!-- Semana 5 -->
                 <div class="week-card">
                     <div>
                         <div class="week-number">05</div>
                         <div class="week-label">Semana 5</div>
-                        <div class="coming-soon">JavaScript Avanzado</div>
+                        <div class="week-description">JavaScript Avanzado</div>
                     </div>
-                    <a href="https://github.com/Estebangi11/Taller_Desarrollo_Aplicaciones/tree/22b16d32d97392bd1dc4a6a911d7ef23997a5870/Semana05"
-                        class="github-btn" target="_blank">
+                    <a href="https://github.com/Estebangi11/Taller_Desarrollo_Aplicaciones/tree/main/Semana05" class="github-btn" target="_blank">
                         <i class="fab fa-github"></i> Ver Repositorio
                     </a>
                 </div>
-
+                
                 <!-- Semana 6 -->
                 <div class="week-card">
                     <div>
                         <div class="week-number">06</div>
                         <div class="week-label">Semana 6</div>
-                        <div class="coming-soon">Introducción a React</div>
+                        <div class="week-description">Introducción a React</div>
                     </div>
-                    <a href="https://github.com/Estebangi11/Taller_Desarrollo_Aplicaciones/tree/22b16d32d97392bd1dc4a6a911d7ef23997a5870/Semana06"
-                        class="github-btn" target="_blank">
+                    <a href="https://github.com/Estebangi11/Taller_Desarrollo_Aplicaciones/tree/main/Semana06" class="github-btn" target="_blank">
                         <i class="fab fa-github"></i> Ver Repositorio
                     </a>
                 </div>
-
+                
                 <!-- Semana 7 -->
                 <div class="week-card">
                     <div>
                         <div class="week-number">07</div>
                         <div class="week-label">Semana 7</div>
-                        <div class="coming-soon">Componentes en React</div>
+                        <div class="week-description">Componentes en React</div>
                     </div>
-                    <a href="https://github.com/Estebangi11/Taller_Desarrollo_Aplicaciones/tree/22b16d32d97392bd1dc4a6a911d7ef23997a5870/Semana07"
-                        class="github-btn" target="_blank">
+                    <a href="https://github.com/Estebangi11/Taller_Desarrollo_Aplicaciones/tree/main/Semana07" class="github-btn" target="_blank">
                         <i class="fab fa-github"></i> Ver Repositorio
                     </a>
                 </div>
-
+                
                 <!-- Semana 8 -->
                 <div class="week-card">
                     <div>
                         <div class="week-number">08</div>
                         <div class="week-label">Semana 8</div>
-                        <div class="coming-soon">Estado y Props</div>
+                        <div class="week-description">Estado y Props</div>
                     </div>
-                    <a href="https://github.com/Estebangi11/Taller_Desarrollo_Aplicaciones/tree/22b16d32d97392bd1dc4a6a911d7ef23997a5870/Semana08"
-                        class="github-btn" target="_blank">
+                    <a href="https://github.com/Estebangi11/Taller_Desarrollo_Aplicaciones/tree/main/Semana08" class="github-btn" target="_blank">
                         <i class="fab fa-github"></i> Ver Repositorio
                     </a>
                 </div>
-
+                
                 <!-- Semana 9 -->
                 <div class="week-card">
                     <div>
                         <div class="week-number">09</div>
                         <div class="week-label">Semana 9</div>
-                        <div class="coming-soon">React Hooks</div>
+                        <div class="week-description">React Hooks</div>
                     </div>
-                    <a href="https://github.com/Estebangi11/Taller_Desarrollo_Aplicaciones/tree/22b16d32d97392bd1dc4a6a911d7ef23997a5870/Semana09"
-                        class="github-btn" target="_blank">
+                    <a href="https://github.com/Estebangi11/Taller_Desarrollo_Aplicaciones/tree/main/Semana09" class="github-btn" target="_blank">
                         <i class="fab fa-github"></i> Ver Repositorio
                     </a>
                 </div>
-
+                
                 <!-- Semana 10 -->
                 <div class="week-card">
                     <div>
                         <div class="week-number">10</div>
                         <div class="week-label">Semana 10</div>
-                        <div class="coming-soon">React Router</div>
+                        <div class="week-description">React Router</div>
                     </div>
-                    <a href="https://github.com/Estebangi11/Taller_Desarrollo_Aplicaciones/tree/22b16d32d97392bd1dc4a6a911d7ef23997a5870/Semana10"
-                        class="github-btn" target="_blank">
+                    <a href="https://github.com/Estebangi11/Taller_Desarrollo_Aplicaciones/tree/main/Semana10" class="github-btn" target="_blank">
                         <i class="fab fa-github"></i> Ver Repositorio
                     </a>
                 </div>
-
+                
                 <!-- Semana 11 -->
                 <div class="week-card">
                     <div>
                         <div class="week-number">11</div>
                         <div class="week-label">Semana 11</div>
-                        <div class="coming-soon">Backend con Node.js</div>
+                        <div class="week-description">Backend con Node.js</div>
                     </div>
-                    <a href="https://github.com/Estebangi11/Taller_Desarrollo_Aplicaciones/tree/22b16d32d97392bd1dc4a6a911d7ef23997a5870/Semana11"
-                        class="github-btn" target="_blank">
+                    <a href="https://github.com/Estebangi11/Taller_Desarrollo_Aplicaciones/tree/main/Semana11" class="github-btn" target="_blank">
                         <i class="fab fa-github"></i> Ver Repositorio
                     </a>
                 </div>
-
+                
                 <!-- Semana 12 -->
                 <div class="week-card">
                     <div>
                         <div class="week-number">12</div>
                         <div class="week-label">Semana 12</div>
-                        <div class="coming-soon">Bases de Datos</div>
+                        <div class="week-description">Bases de Datos</div>
                     </div>
-                    <a href="https://github.com/Estebangi11/Taller_Desarrollo_Aplicaciones/tree/22b16d32d97392bd1dc4a6a911d7ef23997a5870/Semana12"
-                        class="github-btn" target="_blank">
+                    <a href="https://github.com/Estebangi11/Taller_Desarrollo_Aplicaciones/tree/main/Semana12" class="github-btn" target="_blank">
                         <i class="fab fa-github"></i> Ver Repositorio
                     </a>
                 </div>
-
+                
                 <!-- Semana 13 -->
                 <div class="week-card">
                     <div>
                         <div class="week-number">13</div>
                         <div class="week-label">Semana 13</div>
-                        <div class="coming-soon">APIs REST</div>
+                        <div class="week-description">APIs REST</div>
                     </div>
-                    <a href="https://github.com/Estebangi11/Taller_Desarrollo_Aplicaciones/tree/22b16d32d97392bd1dc4a6a911d7ef23997a5870/Semana13"
-                        class="github-btn" target="_blank">
+                    <a href="https://github.com/Estebangi11/Taller_Desarrollo_Aplicaciones/tree/main/Semana13" class="github-btn" target="_blank">
                         <i class="fab fa-github"></i> Ver Repositorio
                     </a>
                 </div>
-
+                
                 <!-- Semana 14 -->
                 <div class="week-card">
                     <div>
                         <div class="week-number">14</div>
                         <div class="week-label">Semana 14</div>
-                        <div class="coming-soon">Autenticación y Autorización</div>
+                        <div class="week-description">Autenticación y Autorización</div>
                     </div>
-                    <a href="https://github.com/Estebangi11/Taller_Desarrollo_Aplicaciones/tree/22b16d32d97392bd1dc4a6a911d7ef23997a5870/Semana14"
-                        class="github-btn" target="_blank">
+                    <a href="https://github.com/Estebangi11/Taller_Desarrollo_Aplicaciones/tree/main/Semana14" class="github-btn" target="_blank">
                         <i class="fab fa-github"></i> Ver Repositorio
                     </a>
                 </div>
-
+                
                 <!-- Semana 15 -->
                 <div class="week-card">
                     <div>
                         <div class="week-number">15</div>
                         <div class="week-label">Semana 15</div>
-                        <div class="coming-soon">Proyecto Full Stack</div>
+                        <div class="week-description">Proyecto Full Stack</div>
                     </div>
-                    <a href="https://github.com/Estebangi11/Taller_Desarrollo_Aplicaciones/tree/22b16d32d97392bd1dc4a6a911d7ef23997a5870/Semana15"
-                        class="github-btn" target="_blank">
+                    <a href="https://github.com/Estebangi11/Taller_Desarrollo_Aplicaciones/tree/main/Semana15" class="github-btn" target="_blank">
                         <i class="fab fa-github"></i> Ver Repositorio
                     </a>
                 </div>
-
+                
                 <!-- Semana 16 -->
                 <div class="week-card">
                     <div>
                         <div class="week-number">16</div>
                         <div class="week-label">Semana 16</div>
-                        <div class="coming-soon">Despliegue y Production</div>
+                        <div class="week-description">Despliegue y Production</div>
                     </div>
-                    <a href="https://github.com/Estebangi11/Taller_Desarrollo_Aplicaciones/tree/22b16d32d97392bd1dc4a6a911d7ef23997a5870/Semana16"
-                        class="github-btn" target="_blank">
+                    <a href="https://github.com/Estebangi11/Taller_Desarrollo_Aplicaciones/tree/main/Semana16" class="github-btn" target="_blank">
                         <i class="fab fa-github"></i> Ver Repositorio
                     </a>
                 </div>
             </div>
         </div>
     </section>
-
+    
     <section id="github-info" class="section section-dark">
         <div class="container">
             <h2 class="section-title">Instrucciones de GitHub</h2>
-
+            
             <div class="info-container">
                 <h2 class="info-title">Cómo crear una cuenta y repositorio en GitHub</h2>
-
+                
                 <div class="info-content">
                     <h3>1. Crear una cuenta en GitHub</h3>
                     <p>Para comenzar a usar GitHub, primero necesitas crear una cuenta:</p>
@@ -589,7 +570,7 @@
                         <li>Verifica tu dirección de correo electrónico</li>
                         <li>¡Listo! Ya tienes una cuenta de GitHub</li>
                     </ol>
-
+                    
                     <h3>2. Crear un nuevo repositorio</h3>
                     <p>Un repositorio es donde almacenarás todos los archivos de tu proyecto:</p>
                     <ol>
@@ -597,11 +578,11 @@
                         <li>Haz clic en el icono "+" en la esquina superior derecha y selecciona "New repository"</li>
                         <li>Asigna un nombre a tu repositorio (por ejemplo: "mi-proyecto")</li>
                         <li>Escribe una descripción opcional para tu proyecto</li>
-                        <li>Elige si quieres que sea público (visible para todos) o privado (solo visible para ti)</li>
+                        <li>Elige si quieres que sea público (visible para todos) or privado (solo visible para ti)</li>
                         <li>Puedes inicializarlo con un README para agregar información sobre tu proyecto</li>
                         <li>Haz clic en "Create repository"</li>
                     </ol>
-
+                    
                     <h3>3. Subir tus proyectos al repositorio</h3>
                     <p>Una vez creado el repositorio, puedes subir tus archivos:</p>
                     <ol>
@@ -609,7 +590,7 @@
                         <li>Puedes arrastrar y soltar archivos o carpetas directamente</li>
                         <li>También puedes usar Git desde tu computadora para subir cambios (recomendado)</li>
                     </ol>
-
+                    
                     <h3>4. Organizar tus proyectos por semanas</h3>
                     <p>Para organizar tus proyectos como en esta página:</p>
                     <ol>
@@ -621,39 +602,38 @@
             </div>
         </div>
     </section>
-
+    
     <section id="git-info" class="section">
         <div class="container">
             <h2 class="section-title">Información sobre Git</h2>
-
+            
             <div class="info-container">
                 <h2 class="info-title">¿Qué es Git y cómo usarlo?</h2>
-
+                
                 <div class="info-content">
                     <h3>¿Qué es Git?</h3>
-                    <p>Git es un sistema de control de versiones distribuido que te permite rastrear cambios en tus
-                        archivos y coordinar el trabajo en proyectos con otras personas.</p>
-
+                    <p>Git es un sistema de control de versiones distribuido que te permite rastrear cambios en tus archivos y coordinar el trabajo en proyectos con otras personas.</p>
+                    
                     <h3>Comandos básicos de Git</h3>
                     <p>Estos son los comandos esenciales que necesitas conocer:</p>
-
+                    
                     <div class="code-block">
                         # Inicializar un repositorio Git en tu proyecto<br>
                         git init<br><br>
-
+                        
                         # Agregar archivos al área de preparación (staging)<br>
                         git add .<br><br>
-
+                        
                         # Guardar los cambios con un mensaje descriptivo<br>
                         git commit -m "Mi primer commit"<br><br>
-
+                        
                         # Conectar tu repositorio local con GitHub<br>
                         git remote add origin https://github.com/tu-usuario/tu-repositorio.git<br><br>
-
+                        
                         # Subir tus cambios a GitHub<br>
                         git push -u origin main
                     </div>
-
+                    
                     <h3>Flujo de trabajo típico con Git</h3>
                     <ol>
                         <li><strong>git status</strong> - Ver el estado de tus archivos</li>
@@ -661,19 +641,18 @@
                         <li><strong>git commit -m "mensaje"</strong> - Guardar los cambios con un mensaje</li>
                         <li><strong>git push</strong> - Subir los cambios a GitHub</li>
                     </ol>
-
+                    
                     <h3>Recursos adicionales</h3>
                     <ul>
                         <li><a href="https://guides.github.com/" target="_blank">Guías oficiales de GitHub</a></li>
                         <li><a href="https://git-scm.com/doc" target="_blank">Documentación oficial de Git</a></li>
-                        <li><a href="https://www.codecademy.com/learn/learn-git" target="_blank">Tutorial interactivo de
-                                Git</a></li>
+                        <li><a href="https://www.codecademy.com/learn/learn-git" target="_blank">Tutorial interactivo de Git</a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
-
+    
     <footer>
         <div class="container footer-content">
             <div class="social-links">
@@ -685,5 +664,4 @@
         </div>
     </footer>
 </body>
-
 </html>
