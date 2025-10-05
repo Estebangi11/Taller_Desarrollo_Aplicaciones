@@ -1,0 +1,13 @@
+modificar el ejemplo 2 del archivo para que se pueda calcular el ara y perímetro de 3 figuras geométricas , adicione una imagen de las 
+figuras geométricas que sea con pixeles , entorno grafico llamado canva 
+segundo con modelo vista configurador vamos a crear un aplicación para guardar 
+conjuntos:
+primera ventana 
+-una ventana login con 2 roles 
+-que permita validar 2 o mas usuarias en 2 roles diferentes 
+segunda ventana
+-que permita calcular las conversiones de las 4 medidas cualquier unidad de medida (tiempo, longitud o masa)
+-cada usuario debe ver de forma diferente 
+-ejemplo como un docente solo puede codificar y alumno solo ver
+usando modelo vista controlador tener énfasis en los roles
+todo para la semana numero 4  
